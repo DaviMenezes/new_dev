@@ -13,7 +13,14 @@
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "^7.0",
-        "laravel/tinker": "^2.0"
+        "laravel/tinker": "^2.0",
+        "laravel/passport": "~9.0",
+        "dyrynda/laravel-efficient-uuid": "4.1.1",
+        "dyrynda/laravel-model-uuid": "6.2.0",
+        "doctrine/dbal": "~2.3",
+        "laravel/ui": "^2.0",
+        "nwidart/laravel-modules": "^7.2",
+        "joshbrw/laravel-module-installer": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
