@@ -1,7 +1,13 @@
 {
-    "name": "laravel/laravel",
+    "name": "davimenezes/new_dev",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "The Wakanda Laravel workspace for devs",
+    "authors": [
+        {
+            "name": "Davi Menezes",
+            "email": "davimenezes;dev@gmail.com"
+        }
+    ],
     "keywords": [
         "framework",
         "laravel"
