@@ -1,3 +1,18 @@
+## Instalação
+
+- git clone https://github.com/DaviMenezes/new_dev.git
+- git checkout develop
+- clonar todos os repositorios que tem acesso em DaviMenezes/*-module.git
+- Ao clonar os módulos, a pasta do Módulo deve ser o mesmo do nome do modulo, exemplo: git clone https://github.com/DaviMenezes/base-module.git Base
+- entrar na branch develop em todos os modulos clonados
+- php artisan migrate:fresh
+- php artisan db:seed --class=Modules\Base\Database\Seeders\BaseDatabaseSeeder
+- php artisan db:seed --class=Modules\Contact\Database\Seeders\ContactDatabaseSeeder
+- php artisan db:seed --class=Modules\Finance\Database\Seeders\FinanceDatabaseSeeder
+- php artisan contact:new.tenant.user
+- php artisan passport:keys
+- php artisan passport:client --password
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
