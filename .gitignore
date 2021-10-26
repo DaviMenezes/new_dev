@@ -487,3 +487,4 @@ _ide_helper.php
 vendor/composer
 /routes.txt
 /Modules/
+.modules_statuses.json
