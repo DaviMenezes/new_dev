@@ -488,3 +488,4 @@ vendor/composer
 /routes.txt
 /Modules/
 .modules_statuses.json
+/config/bs2.php
