@@ -482,7 +482,7 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,netbeans,visualstudiocode,visualstudio
-_ide_helper.php
+
 .rnd
 vendor/composer
 /routes.txt
