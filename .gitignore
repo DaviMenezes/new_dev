@@ -489,4 +489,3 @@ vendor/composer
 /Modules/
 .modules_statuses.json
 /config/bs2.php
-modules_statuses.json
