@@ -1,19 +1,19 @@
 ## Instalação
 
-- git clone https://github.com/DaviMenezes/new_dev.git
-- git checkout develop
-- Clonar todos os repositorios que tem acesso em DaviMenezes/*-module.git
-- Ao clonar os módulos, a pasta do Módulo deve ser o mesmo do nome do modulo, exemplo: git clone https://github.com/DaviMenezes/base-module.git Base
-- Entrar na branch develop em todos os modulos clonados
-- Informar todos os módulos clonados no arquivo modules_statuses.json que se encontra na raiz do projeto
-- composer install
-- php artisan migrate:fresh
-- php artisan db:seed --class=Modules\Base\Database\Seeders\BaseDatabaseSeeder
-- php artisan db:seed --class=Modules\Contact\Database\Seeders\ContactDatabaseSeeder
-- php artisan db:seed --class=Modules\Finance\Database\Seeders\FinanceDatabaseSeeder
-- php artisan contact:new.tenant.user
-- php artisan passport:keys
-- php artisan passport:client --password
+1. git clone https://github.com/DaviMenezes/new_dev.git
+2. git checkout develop
+3. Criar a pasta Modules na raiz do projeto, entrar na pasta Modules e clonar todos os repositorios que tem acesso em DaviMenezes/*-module.git
+   1. Ao clonar os módulos, a pasta do Módulo deve ser o mesmo do nome do modulo, exemplo: git clone https://github.com/DaviMenezes/base-module.git Base 
+   2. Entrar na branch develop em todos os modulos clonados 
+4. Informar todos os módulos clonados no arquivo modules_statuses.json que se encontra na raiz do projeto 
+5. `composer install` 
+6. `php artisan key:generate`
+7. `php artisan migrate --step` 
+8. `php artisan db:seed --class=Modules\\Base\\Database\\Seeders\\BaseDatabaseSeeder` 
+9. `php artisan db:seed --class=Modules\\Contact\\Database\\Seeders\\ContactDatabaseSeeder`
+10. `php artisan contact:new.tenant.user`
+11. `php artisan passport:keys`
+12. `php artisan passport:client --password`
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
