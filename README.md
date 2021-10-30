@@ -1,21 +1,16 @@
 ## Instalação
 
-1. git clone https://github.com/DaviMenezes/new_dev.git
-2. git checkout develop
-3. Criar a pasta Modules na raiz do projeto, entrar na pasta Modules e clonar todos os repositorios que tem acesso em DaviMenezes/*-module.git
-   1. Ao clonar os módulos, a pasta do Módulo deve ser o mesmo do nome do modulo, 
-   2. exemplo: `git clone https://github.com/DaviMenezes/base-module.git Modules\\Base` 
-   3. Entrar na branch develop em todos os modulos clonados 
-4. Informar todos os módulos clonados no arquivo modules_statuses.json que se encontra na raiz do projeto 
-5. copiar o arqivo .env-example para .env 
-6. `composer install`
-7. `php artisan key:generate`
-8. `php artisan migrate --step` 
-9. `php artisan db:seed --class=Modules\\Base\\Database\\Seeders\\BaseDatabaseSeeder` 
-10. `php artisan db:seed --class=Modules\\Contact\\Database\\Seeders\\ContactDatabaseSeeder`
-11. `php artisan contact:new.tenant.user`
-12. `php artisan passport:keys`
-13. `php artisan passport:client --password`
+1. `git clone https://github.com/DaviMenezes/new_dev.git`
+2. `git checkout develop`
+3. `cp .\.env.example .env`
+4. `composer install`
+5. `php artisan key:generate`
+6. `php artisan migrate --step` 
+7. `php artisan db:seed --class=Modules\\Base\\Database\\Seeders\\BaseDatabaseSeeder` 
+8. `php artisan db:seed --class=Modules\\Contact\\Database\\Seeders\\ContactDatabaseSeeder`
+9. `php artisan contact:new.tenant.user`
+10. `php artisan passport:keys`
+11. `php artisan passport:client --password`
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
