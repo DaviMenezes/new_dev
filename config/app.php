@@ -14,6 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
+    'sandbox' => env('APP_SANDBOX'),
 
     /*
     |--------------------------------------------------------------------------
@@ -53,7 +54,7 @@ return [
     */
 
     'url' => env('APP_URL', 'http://localhost'),
-
+    'client_url' => env('APP_CLIENT_URL', 'https://web.akintec.com'),
     'asset_url' => env('ASSET_URL', null),
 
     /*
@@ -174,6 +175,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        \Dyrynda\Database\LaravelEfficientUuidServiceProvider::class
 
     ],
 
