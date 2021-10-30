@@ -7,8 +7,8 @@
    2. exemplo: `git clone https://github.com/DaviMenezes/base-module.git Modules\\Base` 
    3. Entrar na branch develop em todos os modulos clonados 
 4. Informar todos os módulos clonados no arquivo modules_statuses.json que se encontra na raiz do projeto 
-5. `composer install` 
-6. `copiar o arqivo .env-example para .env`
+5. copiar o arqivo .env-example para .env 
+6. `composer install`
 7. `php artisan key:generate`
 8. `php artisan migrate --step` 
 9. `php artisan db:seed --class=Modules\\Base\\Database\\Seeders\\BaseDatabaseSeeder` 
