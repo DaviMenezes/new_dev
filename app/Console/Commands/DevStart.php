@@ -49,6 +49,8 @@ class DevStart extends Command
         exec('cp .env.example .env', $output);
         collect($output)->each(fn($i) => $this->info($i));
 
+        $this->call('config:cache');
+
         $this->warn('key:generate');
         $this->call('key:generate');
 
