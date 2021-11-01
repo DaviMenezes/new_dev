@@ -1,9 +1,11 @@
 ## Instalação
 
 1. `git clone https://github.com/DaviMenezes/new_dev.git`
-2. `cp .env.example .env`
-3. `composer install`
-4. `php artisan dev:start`
+2. `git clone https://github.com/DaviMenezes/exemplo-module.git`
+3. `git checkout develop`
+4. `cp .env.example .env`
+5. `composer install`
+6. `php artisan dev:start`
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
