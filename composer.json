@@ -42,7 +42,6 @@
         "laravel/ui": "^2.0",
         "nwidart/laravel-modules": "^7.2",
         "infyomlabs/laravel-generator": "7.0.x-dev",
-        "twilio/sdk": "^6.16",
         "davimenezes/base-module": "dev-master",
         "davimenezes/contact-module": "dev-master",
         "davimenezes/exemplo-module": "dev-master"
