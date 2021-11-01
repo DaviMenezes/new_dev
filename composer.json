@@ -14,12 +14,16 @@
     ],
     "license": "MIT",
     "repositories": [{
-        "type": "git",
-        "url": "git@github.com:DaviMenezes/base-module.git"
-    },
+            "type": "git",
+            "url": "git@github.com:DaviMenezes/base-module.git"
+        },
         {
             "type": "git",
             "url": "git@github.com:DaviMenezes/contact-module.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:DaviMenezes/exemplo-module.git"
         }
     ],
     "require": {
@@ -40,7 +44,8 @@
         "infyomlabs/laravel-generator": "7.0.x-dev",
         "twilio/sdk": "^6.16",
         "davimenezes/base-module": "dev-master",
-        "davimenezes/contact-module": "dev-master"
+        "davimenezes/contact-module": "dev-master",
+        "davimenezes/exemplo-module": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
