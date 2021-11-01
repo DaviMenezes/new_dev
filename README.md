@@ -1,16 +1,9 @@
 ## Instalação
 
 1. `git clone https://github.com/DaviMenezes/new_dev.git`
-2. `git checkout develop`
-3. `cp .env.example .env`
-4. `composer install`
-5. `php artisan key:generate`
-6. `php artisan migrate:fresh --step` 
-7. `php artisan db:seed --class=Modules\Base\Database\Seeders\BaseDatabaseSeeder` 
-8. `php artisan db:seed --class=Modules\Contact\Database\Seeders\ContactDatabaseSeeder`
-9. `php artisan contact:new.tenant.user`
-10. `php artisan passport:keys`
-11. `php artisan passport:client --password`
+2. `cp .env.example .env`
+3. `composer install`
+4. `php artisan dev:start`
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
