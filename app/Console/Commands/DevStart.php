@@ -42,6 +42,7 @@ class DevStart extends Command
         exec('git checkout develop', $output);
         exec('cd '.base_path().'\Modules\Base && git checkout develop', $output);
         exec('cd '.base_path().'.\Modules\Contact && git checkout develop', $output);
+        exec('git clone https://github.com/DaviMenezes/exemplo-module.git Modules\Exemplo', $output);
         exec('cd '.base_path().'.\Modules\Exemplo && git checkout develop', $output);
 
         $output = [];
