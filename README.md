@@ -2,7 +2,6 @@
 
 1. `git clone https://github.com/DaviMenezes/new_dev.git`
 2. `git checkout develop`
-3. `git clone https://github.com/DaviMenezes/exemplo-module.git Modules\Exemplo`
 4. `cp .env.example .env`
 5. `composer install`
 6. `php artisan dev:start`
