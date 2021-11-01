@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3691f8bd7263756c082623bc62e29874",
+    "content-hash": "679adf1323a15bbf2c72fa6f3f7315ff",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -181,6 +181,36 @@
             ],
             "description": "Contact module",
             "time": "2021-10-30T18:51:45+00:00"
+        },
+        {
+            "name": "davimenezes/exemplo-module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:DaviMenezes/exemplo-module.git",
+                "reference": "38cb813f56552e7641e2dcdaf7d909d9731bf977"
+            },
+            "default-branch": true,
+            "type": "laravel-module",
+            "extra": {
+                "laravel": {
+                    "providers": [],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Exemplo\\": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Davi Menezes",
+                    "email": "davimenezes.dev@gmail.com"
+                }
+            ],
+            "description": "Modulo exemplo",
+            "time": "2021-11-01T02:51:59+00:00"
         },
         {
             "name": "defuse/php-encryption",
@@ -6458,60 +6488,6 @@
             "time": "2020-07-13T06:12:54+00:00"
         },
         {
-            "name": "twilio/sdk",
-            "version": "6.30.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/twilio/twilio-php.git",
-                "reference": "d60bc2faf10656c100ddfa55d06c33bd8b782957"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/d60bc2faf10656c100ddfa55d06c33bd8b782957",
-                "reference": "d60bc2faf10656c100ddfa55d06c33bd8b782957",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1.0"
-            },
-            "require-dev": {
-                "guzzlehttp/guzzle": "^6.3 || ^7.0",
-                "phpunit/phpunit": ">=4.5",
-                "theseer/phpdox": "^0.12.0"
-            },
-            "suggest": {
-                "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Twilio\\": "src/Twilio/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Twilio API Team",
-                    "email": "api@twilio.com"
-                }
-            ],
-            "description": "A PHP wrapper for Twilio's API",
-            "homepage": "http://github.com/twilio/twilio-php",
-            "keywords": [
-                "api",
-                "sms",
-                "twilio"
-            ],
-            "support": {
-                "issues": "https://github.com/twilio/twilio-php/issues",
-                "source": "https://github.com/twilio/twilio-php/tree/6.30.0"
-            },
-            "time": "2021-10-18T19:13:07+00:00"
-        },
-        {
             "name": "vlucas/phpdotenv",
             "version": "v4.2.1",
             "source": {
@@ -8897,7 +8873,8 @@
     "stability-flags": {
         "infyomlabs/laravel-generator": 20,
         "davimenezes/base-module": 20,
-        "davimenezes/contact-module": 20
+        "davimenezes/contact-module": 20,
+        "davimenezes/exemplo-module": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
