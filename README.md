@@ -5,7 +5,7 @@
 3. `cp .env.example .env`
 4. `composer install`
 5. `php artisan key:generate`
-6. `php artisan migrate --step` 
+6. `php artisan migrate:fresh --step` 
 7. `php artisan db:seed --class=Modules\Base\Database\Seeders\BaseDatabaseSeeder` 
 8. `php artisan db:seed --class=Modules\Contact\Database\Seeders\ContactDatabaseSeeder`
 9. `php artisan contact:new.tenant.user`
