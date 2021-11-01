@@ -40,16 +40,16 @@ class DevStart extends Command
         $output = [];
         $this->warn('git checkout develop');
         exec('git checkout develop', $output);
-        collect($output)->each(fn($i) => $this->info($i));
+        exec('cd '.base_path().'\Modules\Base && git checkout develop', $output);
+        exec('cd '.base_path().'.\Modules\Contact && git checkout develop', $output);
+        exec('cd '.base_path().'.\Modules\Exemplo && git checkout develop', $output);
 
         $output = [];
         $this->warn('creating .env');
         exec('cp .env.example .env', $output);
         collect($output)->each(fn($i) => $this->info($i));
 
-        $output = [];
-        exec('composer install', $output);
-        collect($output)->each(fn($i) => $this->info($i));
+        $this->call('config:cache');
 
         $this->warn('key:generate');
         $this->call('key:generate');
