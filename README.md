@@ -8,14 +8,19 @@
 
 ###Instalação
 [![Instalação](https://img.youtube.com/vi/5v-c_UQGFc0/2.jpg)](https://youtu.be/5v-c_UQGFc0)
+
 ###Entendendo o Controller
 [![Entendendo o Controller](https://img.youtube.com/vi/zPTo3m_YL34/2.jpg)](https://youtu.be/zPTo3m_YL34)
+
 ###Entendendo o Domínio
 [![Entendendo o Domínio](https://img.youtube.com/vi/oJyWDB17l8w/2.jpg)](https://youtu.be/oJyWDB17l8w)
+
 ###Entidade Modelo Vs Model
 [![Entidade Modelo Vs Model](https://img.youtube.com/vi/_cP2fooxAQI/2.jpg)](https://youtu.be/_cP2fooxAQI)
+
 ###Entendendo a camada HttpService
 [![Entendendo a camada HttpService](https://img.youtube.com/vi/bbrU6NZQJng/2.jpg)](https://youtu.be/bbrU6NZQJng)
+
 ###Service Errors e Resumo
 [![Service Errors e Resumo](https://img.youtube.com/vi/kg2tF8_E8ss/2.jpg)](https://youtu.be/kg2tF8_E8ss)
 
