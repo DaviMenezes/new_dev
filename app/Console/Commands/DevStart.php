@@ -38,19 +38,12 @@ class DevStart extends Command
     public function handle()
     {
         $output = [];
-        $this->warn('git checkout develop');
-        exec('git checkout develop', $output);
         exec('cd '.base_path().'\Modules\Base && git checkout develop', $output);
         exec('cd '.base_path().'.\Modules\Contact && git checkout develop', $output);
         exec('git clone https://github.com/DaviMenezes/exemplo-module.git Modules\Exemplo', $output);
         exec('cd '.base_path().'.\Modules\Exemplo && git checkout develop', $output);
 
         $output = [];
-        $this->warn('creating .env');
-        exec('cp .env.example .env', $output);
-        collect($output)->each(fn($i) => $this->info($i));
-
-        $this->call('config:cache');
 
         $this->warn('key:generate');
         $this->call('key:generate');
