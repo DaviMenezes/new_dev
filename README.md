@@ -1,4 +1,4 @@
-## Instalação
+## Instalação Comandos
 
 1. `git clone https://github.com/DaviMenezes/new_dev.git`
 2. `git checkout develop`
@@ -6,17 +6,29 @@
 4. `composer install`
 5. `php artisan dev:start`
 
-###Instalação
+## Videos
+### Instalação
+
 [![Instalação](https://img.youtube.com/vi/5v-c_UQGFc0/2.jpg)](https://youtu.be/5v-c_UQGFc0)
-###Entendendo o Controller
+
+### Entendendo o Controller
+
 [![Entendendo o Controller](https://img.youtube.com/vi/zPTo3m_YL34/2.jpg)](https://youtu.be/zPTo3m_YL34)
-###Entendendo o Domínio
+
+### Entendendo o Domínio
+
 [![Entendendo o Domínio](https://img.youtube.com/vi/oJyWDB17l8w/2.jpg)](https://youtu.be/oJyWDB17l8w)
-###Entidade Modelo Vs Model
+
+### Entidade Modelo Vs Model
+
 [![Entidade Modelo Vs Model](https://img.youtube.com/vi/_cP2fooxAQI/2.jpg)](https://youtu.be/_cP2fooxAQI)
-###Entendendo a camada HttpService
+
+### Entendendo a camada HttpService
+
 [![Entendendo a camada HttpService](https://img.youtube.com/vi/bbrU6NZQJng/2.jpg)](https://youtu.be/bbrU6NZQJng)
-###Service Errors e Resumo
+
+### Service Errors e Resumo
+
 [![Service Errors e Resumo](https://img.youtube.com/vi/kg2tF8_E8ss/2.jpg)](https://youtu.be/kg2tF8_E8ss)
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
