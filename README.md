@@ -7,6 +7,7 @@
 5. `php artisan dev:start`
 
 ###Instalação
+
 [![Instalação](https://img.youtube.com/vi/5v-c_UQGFc0/2.jpg)](https://youtu.be/5v-c_UQGFc0)
 
 ###Entendendo o Controller
