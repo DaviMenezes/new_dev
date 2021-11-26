@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use Nwidart\Modules\Facades\Module;
 
 class DevStart extends Command
 {
@@ -51,11 +52,12 @@ class DevStart extends Command
         $this->warn('migrate --step');
         $this->call('migrate:fresh', ['--step']);
 
-        $this->warn('seeding base module');
-        $this->call('db:seed', ['--class' => 'Modules\Base\Database\Seeders\BaseDatabaseSeeder']);
+        $modules = Module::allEnabled();
 
-        $this->warn('seeding contact module');
-        $this->call('db:seed', ['--class' => 'Modules\Contact\Database\Seeders\ContactDatabaseSeeder']);
+        foreach ($modules as $module) {
+            $this->warn('seeding ' . $module->getLowerName() .   ' module');
+            $this->call('db:seed', ['--class' => 'Modules\\' . $module->getName() . '\\Database\\Seeders\\' . $module->getName() . 'DatabaseSeeder']);
+        }
 
         $this->warn('contact:new.tenant.user');
         $this->call('contact:new.tenant.user');
