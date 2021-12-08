@@ -4,6 +4,7 @@ namespace App\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
+use Modules\Adm\Console\DeleteUserCreatedAfter24Hours;
 
 class Kernel extends ConsoleKernel
 {
@@ -25,6 +26,9 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
+        if(env('APP_SANDBOX')) {
+            $schedule->command(DeleteUserCreatedAfter24Hours::class)->dailyAt('00:00');
+        }
     }
 
     /**
